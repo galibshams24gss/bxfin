@@ -1,0 +1,48 @@
+{
+	"regions": [
+		{
+			"code": "ap",
+			"title": "Asia Pacific"
+		},
+		{
+			"code": "na",
+			"title": "North America"
+		}
+	],
+	"customers": [
+		{
+			"name": "Pacific Corp",
+			"regionCode": "ap",
+			"rating": "AAA",
+			"opportunities": [
+				{
+					"name": "Opp 1"
+				},
+				{
+					"name": "Opp 2"
+				}
+			]
+		},
+		{
+			"name": "Wave Airline",
+			"regionCode": "ap",
+			"rating": "BBB",
+			"opportunities": [
+				{
+					"name": "Opp 11"
+				},
+				{
+					"name": "Opp 12"
+				},
+				{
+					"name": "Opp 13"
+				}
+			]
+		},
+		{
+			"name": "Zoo Consulting",
+			"regionCode": "na",
+			"rating": "AA"
+		}
+	]
+}

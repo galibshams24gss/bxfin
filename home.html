@@ -1,0 +1,38 @@
+<div class="container">
+
+<div class="row">
+                <div class="col-md-12">
+                        <div class="text-center">
+                                <h1>Assessment</h1>
+                                <p><b>Front-End Development Technical Assessment</b></p>
+                                <div class="form-group">
+                                        <a class="btn btn-primary btn-lg" href="#!solution">SOLUTION</a>
+                                </div>
+                        </div>
+                </div>
+</div>
+
+<section id="carousel" ng-carousel
+    ng-swipe-right="curSlide=curSlide-1" 
+    ng-swipe-left="curSlide=curSlide+1">
+
+    <ul>
+      <li><img src="background-vector-baby.jpg" />
+      <li><img src="officeview.png" />
+      <li><img src="background hd.jpg" />
+    </ul>
+    
+    <div id="prev-button" ng-click="curSlide=curSlide-1"> &lt; </div>
+    <div id="next-button" ng-click="curSlide=curSlide+1">&gt; </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+        <p>Made by <a href="https://github.com">{{home.text1}}</a>.</p>
+        <p>Code released under <a href="https://github.com/galibshams24gss/bxfin">{{home.text2}}</a>.</p>
+        <p>© 2018 Copyright:
+                <a href="https://github.com">{{home.text3}}</a>
+        </p>
+</footer>
+<!-- Footer -->
+</div>
